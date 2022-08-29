@@ -20,7 +20,7 @@ class AcGameObject {
     }
 
     destroy() {
-        this.on+destroy();
+        this.on_destroy();
 
         for (let i = 0; i < AC_GAME_OBJECTS.length; i ++ ) {
             if(AC_GAME_OBJECTS[i] === this) {
